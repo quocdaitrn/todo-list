@@ -11,6 +11,7 @@ import (
 	httptransport "github.com/go-kit/kit/transport/http"
 )
 
+// SetupHTTPServer handles routes.
 func SetupHTTPServer(
 	tSvc service.TodoService,
 
